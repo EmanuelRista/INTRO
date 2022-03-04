@@ -28,6 +28,7 @@
     echo '<br>';
     print_r($oggetto); */
 
+    var_dump($oggetto);
 
     //creare un form, invio nome di persona, inserisco dati dentro un oggetto, stampa oggetto
 
