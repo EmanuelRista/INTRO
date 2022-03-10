@@ -38,10 +38,14 @@
     $lastname = $_POST['lastname'];
     $email = $_POST['email'];
 
-    $object = new stdClass();
-    $object->people = array('name' => $name, 'lastname' => $lastname, 'email' => $email);
+    $people = new stdClass();
+    $people->name = $name;
+    $people->lastname = $lastname;
+    $people->email = $email;
 
-    print_r($object);
+    var_dump($people);
+
+    echo $people->email;
 
 
     ?>
